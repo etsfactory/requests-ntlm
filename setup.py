@@ -4,14 +4,14 @@
 from setuptools import setup
 
 setup(
-    name='requests_ntlm',
+    name='requests_ntlm_sspi',
     version='0.3.0',
-    packages=[ 'requests_ntlm' ],
+    packages=[ 'requests_ntlm_sspi' ],
     install_requires=[ 'requests>=2.0.0', 'python-ntlm3', 'pypiwin32'],
-    provides=[ 'requests_ntlm' ],
+    provides=[ 'requests_ntlm_sspi' ],
     author='Ben Toews',
     author_email='mastahyeti@gmail.com',
-    url='https://github.com/requests/requests-ntlm',
+    url='https://github.com/etsfactory/requests-ntlm-sspi',
     description='This package allows for HTTP NTLM authentication using the requests library.',
     license='ISC',
     classifiers=[
